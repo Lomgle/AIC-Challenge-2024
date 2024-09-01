@@ -1,0 +1,58 @@
+/* CSS for search button */
+button[kind="secondary"] {
+    margin-top: 28px;
+}
+
+/* CSS for h3 */
+h3 {
+    text-align: center;
+    opacity: 0.5;
+}
+
+/* CSS for h2 with gradient animation */
+h2[id="colgate-maxfresh"] {
+    text-align: center;
+    font-size: calc(1.35rem + 9vw);
+    background: linear-gradient(270deg, #f74c06, #f9bc2c);
+    background-size: 400% 400%;
+    -webkit-animation: gradientAnimation 40s ease infinite;
+    -moz-animation: gradientAnimation 40s ease infinite;
+    animation: gradientAnimation 40s ease infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+div[data-testid="stAppViewContainer"] {
+    background-image: url('https://cdn.modrinth.com/landing-new/landing.webp');
+    background-size: cover;
+}
+
+/* CSS to remove black header */
+header[data-testid="stHeader"] {
+    position: static;
+}
+
+h1[class="font"] {
+    font-size:3em;
+}
+
+section[data-testid="stSidebar"]{
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    background-color: rgba(0, 8, 20, 0.5);
+    width: 380px;
+}

@@ -1,0 +1,20 @@
+> v2.5.2
+    - chưa có ghi chú j.
+
+> v3
+    - represent -> present
+    - thêm background
+    - thay thế markdown_styling.py bằng style.css
+    - thêm sidebar (cài đặt)
+        + số lượng ảnh tìm kiếm
+        + timeout
+        + lựa chọn dataset
+    - đổi theme
+    - loại bỏ việc phải chạy baseline nhiều lần sau lần đầu tiên (là giờ chỉ cần chạy baseline ĐÚNG 1 lần và không đụng đến nó nữa)
+
+
+    *FIXED BUGS:
+    - không bấm nút sang phải (cần test nhiều hơn)
+
+    *EXISTING BUGS FOUND:
+    - tỉ lệ nhỏ bị graphic api error trong lúc chạy 
